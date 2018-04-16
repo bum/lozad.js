@@ -1,5 +1,5 @@
 /**
- * Detect IE browser
+ * Detect Ms IE browser
  * @const {boolean}
  * @private
  */
@@ -26,7 +26,8 @@ const defaultConfig = {
       element.style.backgroundImage = `url('${element.getAttribute('data-background-image')}')`
     }
   },
-  loaded() {}
+  loaded() {
+  }
 }
 
 function markAsLoaded(element) {
